@@ -155,8 +155,23 @@ height: 20rem;
         }
     
 }
-
-@media (max-width:360px){
+@media (max-width:380px){
+    #carouselExampleIndicators{
+        margin-left: 1rem;
+    }
+    #carouselExampleIndicators1{
+        margin-left: 1rem;
+    }
+}
+@media (max-width:441px){
+    #carouselExampleIndicators{
+        margin-left: 1.5rem;
+    }
+    #carouselExampleIndicators1{
+        margin-left: 1.5rem;
+    }
+}
+@media (max-width:370px){
     #carouselExampleIndicators{
         margin-left: 0;
     }
@@ -164,6 +179,7 @@ height: 20rem;
         margin-left: 0;
     }
 }
+
 @media (max-width:768px){
     #contenedor{
         margin-top: 1.5rem;
