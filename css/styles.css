@@ -61,12 +61,12 @@ header{
 /*carrusel */
 
 #carouselExampleIndicators{
-width: 22rem;
-height: 25rem;
+width: 18rem;
+height: 20rem;
 }
 #carouselExampleIndicators1{
-    width: 22rem;
-    height: 25rem;
+    width: 18rem;
+    height: 20rem;
     }
 
 .carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators {
