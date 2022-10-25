@@ -35,6 +35,32 @@ header{
     object-position: bottom;
 }
 
+
+/*video*/ 
+
+.video-contenedor{
+    padding: 3rem;
+}
+.video{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.titulo-video{
+    font-family: vivo;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+
 /*carrusel */
 
 #carouselExampleIndicators{
@@ -221,6 +247,10 @@ height: 20rem;
     }
     #contenedor{
         margin-top: 1.5rem;
+    }
+    .titulo-video{
+        font-size: 2rem;
+        margin-top: 1rem;
     }
     .titulo-v25{
         font-size: 2rem;
