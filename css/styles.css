@@ -156,7 +156,7 @@ height: 20rem;
     
 }
 
-@media (max-width:460px){
+@media (max-width:360px){
     #carouselExampleIndicators{
         margin-left: 0;
     }
