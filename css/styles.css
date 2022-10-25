@@ -10,52 +10,25 @@
     font-family: vivo;
     src: url(../fonts/vivo-BoldExtended.otf);
 }
-header{
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .5 rem;
-    background-color: rgba(63,95,255,255);
-    height: 12vh;
-    position: fixed;
-    width: 100%;
-}
 
-.nav-menu ul{
-    display: flex;
-    align-items: center;
+header{
+    background-color: rgba(63,95,255,255);
 }
-.nav-menu li{
-    padding: 1rem;
-}
-.nav-menu a{
-    color: white;
-    font-size: .9rem;
-    font-family: vivo;
-}
-.logo-banner{
-    margin-left: 1.2rem;
+.navbar-brand img{
     width: 150px;
     height: 40px;
 }
-.menu-icon{
-    width: 40px;
-    height: 40px;
-    border-radius: 2px;
+.navbar-nav li a{
+    font-family: vivo;
+    color: white;
 }
-.menu-icon, #check{
-    display: none;
-}
-
 /* SECTION INICIO*/
 
-.inicio{
-    height: 100vh;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../img/fotosinlogo4.jpg);
+.inicio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 /*carrusel */
@@ -72,11 +45,7 @@ height: 20rem;
 .carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators {
   filter: invert(108%);
 }
-
-
-
-/*manga*/
-.container{
+#contenedor{
     margin-top: 10rem;
 }
 .v25{
@@ -95,13 +64,14 @@ height: 20rem;
   font-family: vivo;
   font-size: 4rem;
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
+
 .v25-producto{
     width: 100%;
     grid-area: f1;
     height: 600px;
-    margin: 0;    
+
   }
 
   .v251{
@@ -171,6 +141,19 @@ height: 20rem;
 
 
 /* MEDIA QUERIES*/
+@media (min-width:768px){
+
+    #carouselExampleIndicators{
+        width: 25rem;
+        height: 30rem;
+        }
+    #carouselExampleIndicators1{
+         width: 25rem;
+        height: 30rem;
+        }
+    
+}
+
 
 @media (max-width:768px){
     .checkbtn{

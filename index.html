@@ -10,28 +10,51 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo-header">
-            <a href=""><img class="logo-banner" src="img/logoblanco.png" alt=""></a>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a class="navbar-brand" href="#inicio">
+                    <img src="img/logoblanco.png" alt="" width="30" height="24" class="d-inline-block align-top">
+                  </a>
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#toggleMobileMenu" 
+                    aria-controls="toggleMobileMenu" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li>
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#v25">V25</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#v25pro">V25 Pro</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Saber más</a>
+                        </li>
+                    </ul>
+                    
+    
+                </div>
+            </nav>
         </div>
-        <div class="nav-menu">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <img class="menu-icon" src="img/logohamburguesa.png" alt="">
-            </label>
-            <ul>
-                <li><a href="#inicio" class="text-decoration-none">Inicio</a></li>
-                <li><a href="#v25" class="text-decoration-none">V25</a></li>
-                <li><a href="#v25pro" class="text-decoration-none">V25 Pro</a></li>
-                <li><a href="#sabermas" class="text-decoration-none">Saber más</a></li>
-            </ul>
-        </div>
+    
     </header>
     <main>
         <section  id="inicio" class="inicio">
-
+            <img src="img/fotosinlogo4.jpg" alt="">
         </section>
         <h1 id="v25" class="titulo-v25">V25 5G</h1>
-        <section class="container">
+        <section class="container" id="contenedor">
             <div class="row">
                 <div class="col-md-6" class="v25-producto">
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -233,7 +256,7 @@
 
         
         <h1 id="v25pro" class="titulo-v25">V25 Pro</h1>
-        <section class="container">
+        <section class="container" id="contenedor">
             <div class="row">
                 <div class="col-md-6" class="v25-producto">
                         <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="true">
@@ -378,8 +401,8 @@
             <div class="donde-comprar"> 
                 <p class="texto-donde">¿Dónde comprar?</p>
                 <p class="texto-clientes">Puedes encontrar tu V25 Pro preferido en las siguientes tiendas </p>
-                <div class="container">
-                    <div class="row justify-content-evenly" class="carrusel-clientes">
+                <div class="container" id="contenedor">
+                    <div class="row justify-content-evenly" class="carrusel-clientes" id="contenedor">
                         <div class="card" style="width: 13rem; height: 22rem;">
                             <img class="card-img-top" src="img/clientes/ripley22.png" alt="Card image cap">
                             <div class="card-body">
@@ -486,7 +509,7 @@
                   <a href="#v25" class="text-reset">V25</a>
                 </p>
                 <p>
-                  <a href="#v25pro" class="text-reset">v25pro</a>
+                  <a href="#v25pro" class="text-reset">V25pro</a>
                 </p>
                 
               </div>
@@ -496,7 +519,7 @@
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <!-- Links -->
                 <h6 class="text-uppercase fw-bold mb-4">
-                  RRSS
+                  SOCIAL MEDIA
                 </h6>
                 <p>
                   <a href="https://www.instagram.com/vivo_chile/?hl=en" target="_blank" class="text-reset">Instagram</a>
