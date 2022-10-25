@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: vivo;
+    src: url(../fonts/vivo-BoldExtended.otf);
+}
+header{
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5 rem;
+    background-color: rgba(63,95,255,255);
+    height: 12vh;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    padding: 1rem;
+}
+.nav-menu a{
+    color: white;
+    font-size: .9rem;
+    font-family: vivo;
+}
+.logo-banner{
+    margin-left: 1.2rem;
+    width: 150px;
+    height: 40px;
+}
+.menu-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+.menu-icon, #check{
+    display: none;
+}
+
+/* SECTION INICIO*/
+
+.inicio{
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fotosinlogo4.jpg);
+}
+
+/*carrusel */
+
+#carouselExampleIndicators{
+width: 30rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators {
+  filter: invert(108%);
+}
+
+
+
+/*manga*/
+.container{
+    margin-top: 10rem;
+}
+.v25{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:    "f1 f1 f1 f2"
+                            "f1 f1 f1 f2"
+                           "f3 f3 f3 f3";
+    margin-top: 10rem;
+
+}
+#v25pro{
+    margin-top: 10rem;
+}
+.titulo-v25{
+  font-family: vivo;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.v25-producto{
+    width: 100%;
+    grid-area: f1;
+    height: 600px;
+    margin: 0;    
+  }
+
+  .v251{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .v252{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .v253{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .v254{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .v255{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  
+.v25-specs{
+    grid-area: f2;
+    text-align: center;
+}
+.img-specsv25{
+  width: 1000px;
+}
+.v25-donde{
+    grid-area: f3;
+}
+.texto-donde{
+  text-align: center;
+  font-family: vivo;
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+.texto-clientes{
+    text-align: center;
+}
+.card{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.card-title{
+    font-size: 1rem;
+}
+.card-text{
+    font-size: 0.8rem;
+}
+
+/*FOOTER*/
+
+
+/* MEDIA QUERIES*/
+
+@media (max-width:768px){
+    .checkbtn{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .nav-menu ul{
+        display: block;
+        position: fixed;
+        top:70px;
+        left:-100%;
+        background: #222;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+    }
+    .nav-menu ul li{
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .nav-menu ul li:last-child{
+        background: none;
+        padding: 1rem;
+    }
+    #check:checked ~ ul{
+        left: 0;
+        transition: all .25s;
+    }
+}
