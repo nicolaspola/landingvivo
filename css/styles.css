@@ -197,6 +197,10 @@ height: 20rem;
 }
 
 @media (max-width:768px){
+    .navbar-brand img{
+        width: 80px;
+        height: 20px;
+    }
     #contenedor{
         margin-top: 1.5rem;
     }
