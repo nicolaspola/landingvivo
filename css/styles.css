@@ -61,8 +61,13 @@ header{
 /*carrusel */
 
 #carouselExampleIndicators{
-width: 30rem;
+width: 25rem;
+height: 28rem;
 }
+#carouselExampleIndicators1{
+    width: 25rem;
+    height: 28rem;
+    }
 
 .carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators {
   filter: invert(108%);
@@ -162,7 +167,7 @@ width: 30rem;
     font-size: 0.8rem;
 }
 
-/*FOOTER*/
+
 
 
 /* MEDIA QUERIES*/
