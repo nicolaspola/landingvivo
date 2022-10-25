@@ -34,10 +34,12 @@ header{
 /*carrusel */
 
 #carouselExampleIndicators{
+margin-left: 4.5rem;
 width: 18rem;
 height: 20rem;
 }
 #carouselExampleIndicators1{
+    margin-left: 4.5rem;
     width: 18rem;
     height: 20rem;
     }
@@ -154,8 +156,29 @@ height: 20rem;
     
 }
 
-
+@media (max-width:460px){
+    #carouselExampleIndicators{
+        margin-left: 0;
+    }
+    #carouselExampleIndicators1{
+        margin-left: 0;
+    }
+}
 @media (max-width:768px){
+    #contenedor{
+        margin-top: 1.5rem;
+    }
+    .titulo-v25{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .texto-donde{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .texto-clientes{
+        font-size: 0.8rem;
+    }
     .checkbtn{
         display: block;
     }
