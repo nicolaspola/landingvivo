@@ -34,6 +34,12 @@ header{
     object-fit: cover;
     object-position: bottom;
 }
+.inicio1{
+    display: none;
+}
+.inicio2{
+    height: 100vh;
+}
 
 
 /*video*/ 
@@ -197,7 +203,12 @@ height: 20rem;
          width: 25rem;
         height: 30rem;
         }
-    
+    .inicio1{
+        display: block;
+    }
+    .inicio2{
+        display: none;
+    }
 }
 @media only screen and (min-width: 480px) and (max-width: 520px){
     #carouselExampleIndicators{
