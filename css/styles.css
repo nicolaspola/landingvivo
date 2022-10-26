@@ -34,13 +34,13 @@ header{
     object-fit: cover;
     object-position: bottom;
 }
-.inicio1{
+
+#kv-h{
     display: none;
 }
-.inicio2{
+#kv-v{
     height: 100vh;
 }
-
 
 /*video*/ 
 
@@ -203,10 +203,10 @@ height: 20rem;
          width: 25rem;
         height: 30rem;
         }
-    .inicio1{
+    #kv-h{
         display: block;
     }
-    .inicio2{
+    #kv-v{
         display: none;
     }
 }
